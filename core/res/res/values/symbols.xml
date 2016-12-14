@@ -2884,4 +2884,12 @@
   <java-symbol type="bool" name="use_lock_pattern_drawable" />
   <java-symbol type="drawable" name="lockscreen_notselected" />
   <java-symbol type="drawable" name="lockscreen_selected" />
+
+  <!-- Extended Boosts for QPerformance -->
+
+  <!-- cpu boost on boot -->
+  <java-symbol type="bool" name="config_enableCpuBoostOnBoot" />
+  <java-symbol type="integer" name="onbootboost_duration" />
+  <java-symbol type="array" name="onbootboost_param_value" />
+
 </resources>
