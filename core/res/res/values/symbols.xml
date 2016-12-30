@@ -2756,6 +2756,11 @@
   <java-symbol type="bool" name="config_enableCpuBoostForPanelViewFling" />
   <java-symbol type="array" name="panelview_flingboost_param_value" />
 
+  <!-- cpu boost for pre-fling -->
+  <java-symbol type="bool" name="config_enableCpuBoostForPreFling" />
+  <java-symbol type="integer" name="preflingboost_timeout_param" />
+  <java-symbol type="array" name="preflingboost_param_value" />
+
   <!-- SIM contact batch operation -->
   <java-symbol type="bool" name="config_sim_phonebook_batch_operation" />
   <!-- config 2G/3G/4G RAT strings for carriers -->

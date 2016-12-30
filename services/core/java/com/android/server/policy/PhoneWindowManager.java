@@ -857,7 +857,6 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     backMultiPressAction((Long) msg.obj, msg.arg1);
                     finishBackKeyPress();
                     break;
-                }
                 case MSG_DISPATCH_KEYPRESS_BOOST_UNBLOCK:
                     mKeypressBoostBlocked = false;
                     break;
